@@ -69,9 +69,8 @@ final class SwitchCellModel: DKCellModel<CellType> {
     var isOn: Bool
 
     init(title: String, isOn: Bool) {
-    self.title = title
-    self.isOn = isOn
-
+        self.title = title
+        self.isOn = isOn
     }
 }
 ```
