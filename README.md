@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 [![Platform](https://img.shields.io/cocoapods/p/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 
-`DKDataSources` is your neat data driven generic replacment for `UITableViewDataSource` & `UICollectionViewDataSource` it solves common problems with handling multiples cell types in `TableViews` and `CollectionViews`, removes a lot of boilerplate code and provides elegant solution for  `if indexPath == ` alike statements.
+`DKDataSources` is your neat data driven generic replacment for `UITableViewDataSource` & `UICollectionViewDataSource` it solves common problems with handling multiple cell types in sections, removes a lot of boilerplate code and provides elegant solution for  `if indexPath == ` alike statements.
 
 ![](screenshot.png)
 
