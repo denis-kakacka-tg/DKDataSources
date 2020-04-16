@@ -50,9 +50,9 @@ enum CellType: DKCellType {
     case `switch`(SwitchCellModel)
 
     var info: (cellClass: AnyClass, identifier: String) {
-    switch self {
-    case .switch:
-        return (cellClass: SwitchCell.self, identifier: NSStringFromClass(SwitchCell.self))
+        switch self {
+        case .switch:
+            return (cellClass: SwitchCell.self, identifier: NSStringFromClass(SwitchCell.self))
     }
 }
 ```
