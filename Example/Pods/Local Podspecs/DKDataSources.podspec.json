@@ -1,0 +1,22 @@
+{
+  "name": "DKDataSources",
+  "version": "0.1.0",
+  "summary": "A short description of DKDataSources.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Denis Kakačka/DKDataSources",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Denis Kakačka": "dkakacka@sygic.com"
+  },
+  "source": {
+    "git": "https://github.com/Denis Kakačka/DKDataSources.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DKDataSources/Classes/**/*"
+}

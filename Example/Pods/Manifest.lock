@@ -1,0 +1,16 @@
+PODS:
+  - DKDataSources (0.1.0)
+
+DEPENDENCIES:
+  - DKDataSources (from `../`)
+
+EXTERNAL SOURCES:
+  DKDataSources:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DKDataSources: 8ec57237c671c7f0faf29b78591c14eb2385e3ae
+
+PODFILE CHECKSUM: 81b47ef537bcc28b8f8105320a84b764e5bb9f5f
+
+COCOAPODS: 1.8.4

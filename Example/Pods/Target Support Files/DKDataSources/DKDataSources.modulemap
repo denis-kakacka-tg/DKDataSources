@@ -1,0 +1,6 @@
+framework module DKDataSources {
+  umbrella header "DKDataSources-umbrella.h"
+
+  export *
+  module * { export * }
+}
