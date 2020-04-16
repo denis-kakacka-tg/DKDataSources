@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DKDataSources_Example' do
+  pod 'DKDataSources', :path => '../'
+
+  target 'DKDataSources_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
