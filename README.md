@@ -3,7 +3,6 @@
 [![Version](https://img.shields.io/cocoapods/v/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 [![License](https://img.shields.io/cocoapods/l/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 [![Platform](https://img.shields.io/cocoapods/p/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
-[![CocoaPods](https://img.shields.io/cocoapods/v/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 
 `DKDataSources` is your neat solution to common problems with multiples cell types in `TableViews` and `CollectionViews`, also provides elegant solution for  `if indexPath.section == 0` alike statements in `cellForRow`, `heightForRow` etc.
 
