@@ -8,7 +8,7 @@
 
 ![](screenshot.png)
 
-And this is all ViewController code in code of the first screenshot:
+All ViewController code of the first screenshot:
 ```swift
 lazy var dataSource = DKTableDataSource<CellType>(
     models: [
