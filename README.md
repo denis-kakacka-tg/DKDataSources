@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 [![Platform](https://img.shields.io/cocoapods/p/DKDataSources.svg)](https://cocoapods.org/pods/DKDataSources)
 
-`DKDataSources` is your neat data driven generic replacment for `UITableViewDataSource` & `UICollectionViewDataSource` it solves common problems with handling multiple cell types in sections, removes a lot of boilerplate code and provides elegant solution for  `if indexPath == ` alike statements.
+`DKDataSources` is your neat data driven generic replacement for `UITableViewDataSource` & `UICollectionViewDataSource`. It solves common problems with handling multiple cell types, removes a lot of boilerplate code and provides elegant solution for  `if indexPath == ` alike statements.
 
 ![](screenshot.png)
 
@@ -43,7 +43,7 @@ pod 'DKDataSources'
 ```
 
 # Usage
-When using `DKDataSources` you need to meet some requirements to make it work. First of all you need `enum` conforming to `DKCellType` protocol. This `enum` will hold all possible `cells` and additional info for every cell for register and dequeue.
+You need to meet some requirements to make it work. First of all you need `enum` conforming to `DKCellType` protocol. This `enum` will hold all possible `cells` and additional info for every cell for register and dequeue.
 
 ```swift
 enum CellType: DKCellType {
@@ -58,7 +58,7 @@ enum CellType: DKCellType {
 ```
 
 
-Every `cell` needs corresponding `model` to be configured with. This model needs to inherit from generic class `DKCellModel<>` where type is your previously created `enum` so for now its `DKCellModel<CellType>`. Then you need to `override` property `type` and set it to corresponding cell type. In this case `CellType.switch` has associated value of type `SwitchCellModel` so we pass there `self`. 
+Every `cell` needs corresponding `model` to be configured with. This model needs to inherit from generic class `DKCellModel<>` where type is your previously created `enum`, so for now its `DKCellModel<CellType>`. Then you need to `override` property `type` and set it to corresponding cell type. In this case `CellType.switch` has associated value of type `SwitchCellModel` so we pass there `self`. 
 
 
 ```swift
@@ -90,7 +90,7 @@ extension SwitchCell: DKTableConfigurableCell {
 }
 ```
 
-You are done now. And this is all you need to do in your controller to have infinite types of cells in it, even in one section. 
+And thats it, all you need to do in your controller to have infinite types of cells, even in one section. 
 
 ```swift
 lazy var dataSource = DKTableDataSource<CellType>(
